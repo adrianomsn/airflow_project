@@ -4,7 +4,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime
 
-API_KEY = "3bd0125aa8cd0eada756ea251e8b2aa6"
+API_KEY = "api_key"
 CITY = "São Paulo"
 DB_PATH = "C:\\Users\\super\\AppData\\Roaming\\DBeaverData\\workspace6\\.metadata\\sample-database-sqlite-1\\Chinook.db"
 # Função para extrair dados da API OpenWeatherMap
